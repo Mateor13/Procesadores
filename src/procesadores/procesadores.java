@@ -48,5 +48,12 @@ public class procesadores {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
+    //Metodos personalizados
+    //Imprimir datos
+    public void mostrarDatos() {
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Nucleo: " + getNucleo());
+        System.out.println("Consumo: " + getConsumo());
+        System.out.println("Velocidad: " + getVelocidad());
+    }
 }
