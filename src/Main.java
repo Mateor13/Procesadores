@@ -43,5 +43,13 @@ public class Main {
         procesadores_intel m3 = new procesadores_intel(16, 125.4, 3.2,"Core i9-12900K", "LGA 1700", false);
 
         // Grupo 3
+
+        // Carlos Perez
+
+        procesadores_AMD p18 = new procesadores_AMD(6, 65, 3.5, "AMD RYZEN5 5600X", "AM4", true);
+        procesadores_AMD p19 = new procesadores_AMD(8, 75, 3.9, "AMD RYZEN5 8600G", "AM5", true);
+        procesadores_AMD p20 = new procesadores_AMD(8, 80, 3.7, "AMD RYZEN7 5700X", "AM4", true);
+
+        
     }
 }
