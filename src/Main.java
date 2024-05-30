@@ -32,6 +32,11 @@ public class Main {
         procesadores_AMD p14 = new procesadores_AMD(6, 65.0, 4.3,"AMD Ryzen™ 5 8600G", "AM4", true);
         // Grupo 2
 
+        //Anthony Astudillo
+        procesadores_intel p15 = new procesadores_intel(20,260.45,5.6,"intel core i7-14700KF","LGA1700",true);
+        procesadores_AMD p16 = new procesadores_AMD(7, 105.0, 4.1,"Ryzen 5 4500 4gen", "AM4", false);
+        Procesadores_moviles p17 = new Procesadores_moviles(6,7.25,3.23,"Chip A15 Bionic",true);
+
         // Grupo 3
     }
 }
