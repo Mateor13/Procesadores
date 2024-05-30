@@ -37,6 +37,11 @@ public class Main {
         procesadores_AMD p16 = new procesadores_AMD(7, 105.0, 4.1,"Ryzen 5 4500 4gen", "AM4", false);
         Procesadores_moviles p17 = new Procesadores_moviles(6,7.25,3.23,"Chip A15 Bionic",true);
 
+        //Mateo Torres
+        procesadores_AMD m1 = new procesadores_AMD(16, 105.0, 3.4,"Ryzen 9 5950X", "AM4", true);
+        Procesadores_moviles m2 = new Procesadores_moviles(4,45.5,3.5,"Snapdragon 750",true);
+        procesadores_intel m3 = new procesadores_intel(16, 125.4, 3.2,"Core i9-12900K", "LGA 1700", false);
+
         // Grupo 3
     }
 }
