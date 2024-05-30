@@ -19,7 +19,7 @@ public class procesadores_AMD extends procesadores_escritores{
         this.sensor_temperatura = sensor_temperatura;
     }
     //Imprimir datos
-    public void imprimir_datos_moviles(){
-        System.out.println("Acepta optimización energia: " + getSensor_temperatura());
+    public void imprimir_datos_escritorio(){
+        System.out.println("Cuenta con sensor de temperatura: " + getSensor_temperatura());
     }
 }
