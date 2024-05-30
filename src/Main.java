@@ -50,6 +50,14 @@ public class Main {
         procesadores_AMD p19 = new procesadores_AMD(8, 75.0, 3.9, "AMD RYZEN5 8600G", "AM5", true);
         procesadores_AMD p20 = new procesadores_AMD(8, 80.0, 3.7, "AMD RYZEN7 5700X", "AM4", true);
 
-        
+        //Adrian Ramos
+        Procesadores_moviles apple = new Procesadores_moviles(8, 8.0, 12.16, "A17 pro", true);
+        Procesadores_moviles qualcom = new Procesadores_moviles(8, 12.5, 3.3, "Snapdragon 8 gen3", true);
+
+        apple.setNucleosEficientes(2);
+        apple.setNucleosRendimiento(4);
+
+        qualcom.setNucleosEficientes(3);
+        qualcom.setNucleosRendimiento(5);
     }
 }
