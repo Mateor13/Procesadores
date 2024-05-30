@@ -51,7 +51,7 @@ public class Main {
         procesadores_AMD p20 = new procesadores_AMD(8, 80.0, 3.7, "AMD RYZEN7 5700X", "AM4", true);
 
         //Adrian Ramos
-        Procesadores_moviles apple = new Procesadores_moviles(8, 8.0, 12.16, "A17 pro", true);
+        Procesadores_moviles apple = new Procesadores_moviles(6, 8.0, 12.16, "A17 pro", true);
         Procesadores_moviles qualcom = new Procesadores_moviles(8, 12.5, 3.3, "Snapdragon 8 gen3", true);
 
         apple.setNucleosEficientes(2);
