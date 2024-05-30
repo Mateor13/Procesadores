@@ -59,5 +59,12 @@ public class Main {
 
         qualcom.setNucleosEficientes(3);
         qualcom.setNucleosRendimiento(5);
+
+        // Josue Guerra
+        procesadores_intel p21 = new procesadores_intel(10, 75.0, 3.5, "Intel Xeon E5-2470 v2 ", "LGA 1356", true);
+        procesadores_intel p22 = new procesadores_intel(16,126.3, 3.5, "Intel Core i9-12900K", "FCLGA1700", false );
+        procesadores_AMD m4 = new procesadores_AMD(5, 45.6, 4.2, "FCLGA1700", "FM2+",  true);
+
+        
     }
 }
