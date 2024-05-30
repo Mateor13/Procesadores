@@ -26,7 +26,10 @@ public class Main {
         procesadores_intel p10 = new procesadores_intel(8,28.0,4.0,"intel core i5-1135g7","LGA1156",true);
         procesadores_intel p11 = new procesadores_intel(12,32.0,4.7,"Intel® Core™ i7-1255U","LGA1156",false);
 
-
+        // Integrante Richard Soria
+        procesadores_AMD p12 = new procesadores_AMD(12, 105.0, 3.7,"AMD Ryzen™ 9 5900X", "AM4", true);
+        procesadores_AMD p13 = new procesadores_AMD(8, 35.0, 3.6,"AMD Ryzen™ 7 PRO 8700GE", "AM5", true);
+        procesadores_AMD p14 = new procesadores_AMD(6, 65.0, 4.3,"AMD Ryzen™ 5 8600G", "AM4", true);
         // Grupo 2
 
         // Grupo 3
