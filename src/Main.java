@@ -18,5 +18,7 @@ public class Main {
         //amd
         procesadores_AMD p7 = new procesadores_AMD(7, 8.5, 10.0,"Ryzen 7", "AM4", false);
         procesadores_AMD p8 = new procesadores_AMD(5, 5.4, 9.0,"Ryzen 9", "AM4", false);
+
+
     }
 }
