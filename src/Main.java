@@ -21,6 +21,12 @@ public class Main {
 
         // Grupo 1
 
+        //Ithan Camacho
+        procesadores_intel p9 = new procesadores_intel(12,328.0,4.7,"Intel® Core™ i7-1255U","BGA",false);
+        procesadores_intel p10 = new procesadores_intel(8,28.0,4.0,"intel core i5-1135g7","LGA1156",true);
+        procesadores_intel p11 = new procesadores_intel(12,32.0,4.7,"Intel® Core™ i7-1255U","LGA1156",false);
+
+
         // Grupo 2
 
         // Grupo 3
