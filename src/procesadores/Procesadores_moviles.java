@@ -42,7 +42,7 @@ public class Procesadores_moviles extends procesadores{
 
     //Mateodos personalizados
     //Imprimir datos
-    public void imprimir_datos_moviles(){
+    public void imprimir_datos_moviles() {
         System.out.println("Acepta optimización energia: " + getOptimizacion_energia());
         System.out.println("\nNombre: " + getNombre());
         System.out.println("Nucleos de Eficiencia: " + getNucleosEficientes());
@@ -50,5 +50,9 @@ public class Procesadores_moviles extends procesadores{
         System.out.println("Total de Nucleos: " + getNucleo());
         System.out.println("Consumo: " + getConsumo() + " watts");
         System.out.println("Velocidad: " + getVelocidad() + "Ghz");
+    }
+    @Override
+    public void mostrarDatos(){
+        System.out.println("Clase hija AMD");
     }
 }
