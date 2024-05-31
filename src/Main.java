@@ -68,5 +68,8 @@ public class Main {
         p2.mostrarDatos();
         p2.imprimir_datos_escritorio();
 
+        p9.mostrarDatos();;
+        p9.imprimir_datos_escritorio();
+
     }
 }
