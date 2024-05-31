@@ -23,11 +23,4 @@ public class procesadores_escritores extends procesadores{
         System.out.println(this.socket);
     }
 
-    public void mostrarDatos() {
-        System.out.println("Está es la clase principal en el primer nivel:");
-        System.out.println("Nombre: " + getNombre());
-        System.out.println("Nucleo: " + getNucleo());
-        System.out.println("Consumo: " + getConsumo());
-        System.out.println("Velocidad: " + getVelocidad());
-    }
 }
