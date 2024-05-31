@@ -65,6 +65,8 @@ public class Main {
         procesadores_intel p22 = new procesadores_intel(16,126.3, 3.5, "Intel Core i9-12900K", "FCLGA1700", false );
         procesadores_AMD m4 = new procesadores_AMD(5, 45.6, 4.2, "FCLGA1700", "FM2+",  true);
 
-        
+        p2.mostrarDatos();
+        p2.imprimir_datos_escritorio();
+
     }
 }

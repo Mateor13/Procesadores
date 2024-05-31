@@ -51,6 +51,7 @@ public class procesadores {
     //Metodos personalizados
     //Imprimir datos
     public void mostrarDatos() {
+        System.out.println("Está es la clase principal en el primer nivel:");
         System.out.println("Nombre: " + getNombre());
         System.out.println("Nucleo: " + getNucleo());
         System.out.println("Consumo: " + getConsumo());
